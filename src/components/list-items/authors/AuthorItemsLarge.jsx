@@ -1,4 +1,4 @@
-const LargeAuthorsListItems = ({ author }) => {
+const AuthorItemsLarge = ({ author }) => {
   const { name, age, country, books } = author;
   return (
     <>
@@ -15,4 +15,4 @@ const LargeAuthorsListItems = ({ author }) => {
   );
 };
 
-export default LargeAuthorsListItems;
+export default AuthorItemsLarge;

@@ -1,4 +1,4 @@
-const SmallAithorsListItems = ({ author }) => {
+const AuthorItemsSmall = ({ author }) => {
   const { name, age } = author;
   return (
     <p>
@@ -7,4 +7,4 @@ const SmallAithorsListItems = ({ author }) => {
   );
 };
 
-export default SmallAithorsListItems;
+export default AuthorItemsSmall;
