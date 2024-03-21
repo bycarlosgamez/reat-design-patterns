@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { styled } from "styled-components";
+import { useState } from 'react';
+import { styled } from 'styled-components';
 
 const ModalBackground = styled.div`
   position: absolute;
@@ -18,7 +18,7 @@ const ModalContent = styled.div`
   width: 50%;
 `;
 
-export const Modal = ({ children }) => {
+const Modal = ({ children }) => {
   const [show, setShow] = useState(false);
 
   return (
@@ -35,3 +35,5 @@ export const Modal = ({ children }) => {
     </>
   );
 };
+
+export default Modal;

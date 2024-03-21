@@ -1,13 +1,13 @@
 // import SplitScreen from './components/SplitScreen';
 import { authors } from './assets/data/authors';
 import { books } from './assets/data/books';
-import List from './components/lists/List';
-import NumberedList from './components/lists/Numbered';
-import AuthorItemsSmall from './components/list-items/authors/AuthorItemsSmall';
-import AuthorItemsLarge from './components/list-items/authors/AuthorItemsLarge';
-import BookItemsSmall from './components/list-items/books/BookItemsSmall';
-import BookItemsLarge from './components/list-items/books/BookItemsLarge';
-import { Modal } from './components/Modal';
+import List from './components/layout/lists/List';
+import NumberedList from './components/layout/lists/Numbered';
+import AuthorItemsSmall from './components/layout/list-items/authors/AuthorItemsSmall';
+import AuthorItemsLarge from './components/layout/list-items/authors/AuthorItemsLarge';
+import BookItemsSmall from './components/layout/list-items/books/BookItemsSmall';
+import BookItemsLarge from './components/layout/list-items/books/BookItemsLarge';
+import Modal from './components/layout/Modal';
 
 const LeftSideComp = ({ title }) => {
   return <h2>{title}</h2>;
